@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Montserrat";
+  src: "/assets/Montserrat-Regular.ttf";
+}
+
+main {
+  padding: 100px;
+}
+
+.about {
+  margin: 200px 0px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 400px);
+  gap: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about .texteAbout h1 {
+  font-size: 35px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+.about .texteAbout p {
+  font-family: "Montserrat";
+  color: #636363;
+}
+
+.about .imageLogo {
+  width: auto;
+  cursor: pointer;
+}
+
+.albums {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 400px);
+  gap: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 200px;
+}
+
+.albums h1 {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.albums .texteAlbums button {
+  height: 45px;
+  width: 180px;
+  color: #ffffff;
+  background-color: #18A0FB;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.albums .imageAlbums {
+  border: solid 1px #DFDFDF;
+  cursor: pointer;
+}
+
+.albums .imageAlbums img {
+  opacity: 60%;
+}
+
+.products {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 400px);
+  gap: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 200px;
+}
+
+.products .texteProduct h1 {
+  font-size: 35px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+.products .texteProduct button {
+  height: 45px;
+  width: 180px;
+  color: #ffffff;
+  background-color: #18A0FB;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.products .imageProduct {
+  cursor: pointer;
+}
+
+.products .imageProduct img {
+  opacity: 60%;
+}
+
+.plateformes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (100px)[auto-fill];
+      grid-template-columns: repeat(auto-fill, 100px);
+  gap: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=body.css.map */
